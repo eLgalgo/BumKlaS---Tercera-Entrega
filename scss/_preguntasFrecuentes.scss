@@ -1,0 +1,30 @@
+.preguntasFrecuentes{
+    section{
+        display: flex;
+        flex-direction: column;
+        color: $colorP;
+        font-size: 20px;
+        margin: 20px;
+        p{
+            margin-bottom: 10px;
+            margin-left: 20px;
+        }
+        h2{
+            font-size: 40px;
+            margin: 10px;
+        }
+    }
+    div{
+        h2{
+            color: $colorP;
+            font-size: 30px;
+            margin: 10px;
+        }
+        h3{
+            color: $colorP;
+            font-size: 20px;
+            margin-left: 100px;
+            margin-bottom: 80px;
+        }
+    }
+}
