@@ -43,17 +43,15 @@ main p{
         color: $colorS;
     }
 }
-.grilla2{
-    display: grid;
-    grid-template-areas: 
-    "cabeza"
-    "im1"
-    "sponsors"
-    "footer";
-}
 
 @media (min-width: 501px) and (max-width: 1023px) {
     /*Nosotros*/
+    .sponsors{
+        img{
+            height: 60%;
+            width: 60%;
+        }
+    }
     .imagenNosotros1{
         flex-direction: column;
         img{
@@ -102,6 +100,12 @@ main p{
 
 @media (max-width: 500px) {
     /*Nosotros*/
+    .sponsors{
+        img{
+            height: 50%;
+            width: 80%;
+        }
+    }
     .imagenNosotros1{
         flex-direction: column;
         img{

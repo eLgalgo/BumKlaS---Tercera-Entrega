@@ -179,12 +179,11 @@ main p {
     font-family: sans-serif;
     color: #ca7575; }
 
-.grilla2 {
-  display: grid;
-  grid-template-areas: "cabeza" "im1" "sponsors" "footer"; }
-
 @media (min-width: 501px) and (max-width: 1023px) {
   /*Nosotros*/
+  .sponsors img {
+    height: 60%;
+    width: 60%; }
   .imagenNosotros1 {
     flex-direction: column; }
     .imagenNosotros1 img {
@@ -218,6 +217,9 @@ main p {
 
 @media (max-width: 500px) {
   /*Nosotros*/
+  .sponsors img {
+    height: 50%;
+    width: 80%; }
   .imagenNosotros1 {
     flex-direction: column; }
     .imagenNosotros1 img {
@@ -254,8 +256,11 @@ main p {
   justify-content: center;
   color: #bb3b3b;
   font-size: 40px;
-  margin-right: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.marcas .w-marcas {
+  margin: 5px;
+  width: 10%; }
 
 @media (min-width: 501px) and (max-width: 1023px) {
   .menuCatalogo {
