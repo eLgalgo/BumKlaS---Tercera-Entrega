@@ -20,6 +20,11 @@ nav {
   nav input {
     margin: 5px; }
 
+.logoInicio {
+  display: flex;
+  flex-direction: row;
+  padding: 2%; }
+
 header {
   display: flex;
   flex-direction: column;
