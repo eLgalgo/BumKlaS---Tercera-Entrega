@@ -18,12 +18,18 @@
 <body>
     <header class="container-fluid">
         <section ><a class="d-flex justify-content-center" href="index.html" class="icono-Principal" ><img class="w-25 img-fluid" src="multimedia/logo.png" alt="BumKlaS" ></a></section>
-        <nav class="mx-auto ">
+        <nav class="mx-auto">
             <ul>
                 <li class="nav-item"><a class="nav-link lead" href="paginas/catalogo.html">Catalogo</a></li>
                 <li class="nav-item"><a class="nav-link lead" href="paginas/preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
                 <li class="nav-item"><a class="nav-link lead" href="paginas/nosotros.html">Nosotros</a></li>
                 <li class="nav-item"><a class="nav-link lead" href="paginas/contacto.html">Contacto</a></li>
+                <div class="patinetos">
+                    <img id="animacionPatin" class="w-10" src="multimedia/logoPatin2.png" alt="">
+                    <img id="animacionPatin2" class="w-10" src="multimedia/logoPatin2.png" alt="">
+                    <img id="animacionPatin3" class="w-10" src="multimedia/logoPatin2.png" alt="">
+                    <img id="animacionPatin4" class="w-10" src="multimedia/logoPatin2.png" alt="">
+                </div>
                 <div>
                   <input class="form-control me-2" type="user" placeholder="Usuario" aria-label="Search">
                   <input class="form-control me-2" type="password" placeholder="Contraseña" aria-label="Search">
@@ -35,45 +41,22 @@
     <main class="contenidoPrincipal">
             <video id="animaDos" class="videoPrincipal" src="multimedia/videoPrincipal.mp4" controls poster="multimedia/maxresdefault.jpg" width="100%"></video>
     </main>
-    <section class="parrafo1 parrafo1d container">
-        <div class="container parrafo2 rounded-3">
-            <div class="d-flex justify-content-center">
-                <img class="img-fluid mx-auto" src="./multimedia/logo2.png" alt="" width="10%">
-                <img class="img-fluid mx-auto" src="./multimedia/logo2.png" alt="" width="10%">
-                <img class="img-fluid mx-auto" src="./multimedia/logo2.png" alt="" width="10%">
-                <img class="img-fluid mx-auto" src="./multimedia/logo2.png" alt="" width="10%">
-                <img class="img-fluid mx-auto" src="./multimedia/logo2.png" alt="" width="10%">
-                <img class="img-fluid mx-auto" src="./multimedia/logo2.png" alt="" width="10%">
-            </div>
-            <p class="lead display-2 ">Somos una empresa dedicada a la venta de productos relacionados con skateboarding en todo sentido, ropa, tablas, trucks, ruedas, rulemanes! <br>
-            Todo para tu Skate esta aqui y ademas, tenemos los mejores precios!!! 
-            <a href="paginas/catalogo.html">Catalogo</a>
-            </p>
-            <div class="container d-flex">
-                <img class="img-fluid w-50 mx-auto" src="./multimedia/icono.png" alt="">
-            </div>
-        </div>
-        <picture class="img-fluid">
-          <source media="(max-width: 799px)" srcset="multimedia/fotoPrincipal-movil.png">
-          <img class="img-fluid" src="multimedia/fotoPrincipal.jpeg" alt="hombre-en-skate">
-        </picture>
-    </section>
-    <aside class="container mx-auto">        
-        <div id="carouselExampleIndicators" class="col-sm-6 col-md-6 carousel mx-auto" data-bs-ride="carousel">
+    <aside class="container-fluid">
+        <div id="carouselExampleIndicators" class=" carousel" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner rounded-3 m-3">
+            <div class="carousel-inner rounded-3">
               <div class="carousel-item active">
-                <img src="multimedia/carusel1.png" class="d-block w-100" alt="...">
+                <img src="multimedia/imagen5.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="multimedia/carusel2.png" class="d-block w-100" alt="...">
+                <img src="multimedia/imagen6.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="multimedia/carusel3.png" class="d-block w-100" alt="...">
+                <img src="multimedia/imagen7.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -86,6 +69,29 @@
             </button>
           </div>
     </aside>
+    <section class="parrafo1 parrafo1d container">
+      <div class="container parrafo2 rounded-3">
+          <div class="d-flex justify-content-center">
+              <img class="img-fluid mx-auto" src="./multimedia/logo2.png" alt="" width="10%">
+              <img class="img-fluid mx-auto" src="./multimedia/logo2.png" alt="" width="10%">
+              <img class="img-fluid mx-auto" src="./multimedia/logo2.png" alt="" width="10%">
+              <img class="img-fluid mx-auto" src="./multimedia/logo2.png" alt="" width="10%">
+              <img class="img-fluid mx-auto" src="./multimedia/logo2.png" alt="" width="10%">
+              <img class="img-fluid mx-auto" src="./multimedia/logo2.png" alt="" width="10%">
+          </div>
+          <p class="lead display-2 ">Somos una empresa dedicada a la venta de productos relacionados con skateboarding en todo sentido, ropa, tablas, trucks, ruedas, rulemanes! <br>
+          Todo para tu Skate esta aqui y ademas, tenemos los mejores precios!!! 
+          <a href="paginas/catalogo.html">Catalogo</a>
+          </p>
+          <div class="container d-flex">
+              <img class="img-fluid w-50 mx-auto" src="./multimedia/icono.png" alt="">
+          </div>
+      </div>
+      <picture class="img-fluid">
+        <source media="(max-width: 799px)" srcset="multimedia/fotoPrincipal-movil.png">
+        <img class="img-fluid" src="multimedia/fotoPrincipal.jpeg" alt="hombre-en-skate">
+      </picture>
+    </section>
     <section class="sponsor">
         <img class="mx-auto" src="multimedia/perfil1.png" alt="" >
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, esse doloribus sapiente alias totam rerum deserunt quis ullam necessitatibus quidem at quae voluptatum id ratione excepturi voluptate magni minus voluptatem.</p>

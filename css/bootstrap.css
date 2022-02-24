@@ -6916,6 +6916,9 @@ textarea.form-control-lg {
 .border-5 {
   border-width: 5px !important;
 }
+.w-10{
+  width: 15%;
+}
 .w-5{
   width: 10%;
   height: 20%;

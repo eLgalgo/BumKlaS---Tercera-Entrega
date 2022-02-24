@@ -49,6 +49,78 @@ footer {
     margin: 10px; }
 
 /*Estilos generales*/
+#animacionPatin {
+  opacity: 70%;
+  width: 10%;
+  animation-name: animacionPatin;
+  position: absolute;
+  right: 80px;
+  transform: rotate(-0.8rad);
+  animation-duration: 1s;
+  margin: 1px; }
+
+@keyframes animacionPatin {
+  0% {
+    transform: translateX(-200px); }
+  100% {
+    transform: translateX(0px) rotate(-0.8rad); } }
+
+#animacionPatin2 {
+  opacity: 70%;
+  width: 10%;
+  animation-name: animacionPatin2;
+  position: absolute;
+  left: 1130px;
+  transform: rotate(0.8rad);
+  animation-duration: 1s;
+  margin: 1px; }
+
+@keyframes animacionPatin2 {
+  0% {
+    transform: translateX(70px); }
+  100% {
+    transform: translateX(0px) rotate(0.8rad); } }
+
+#animacionPatin3 {
+  opacity: 70%;
+  width: 10%;
+  animation-name: animacionPatin3;
+  position: absolute;
+  left: 80px;
+  transform: rotate(0.8rad);
+  animation-duration: 1s;
+  margin: 1px; }
+
+@keyframes animacionPatin3 {
+  0% {
+    transform: translateX(70px); }
+  100% {
+    transform: translateX(0px) rotate(0.8rad); } }
+
+#animacionPatin4 {
+  opacity: 70%;
+  width: 10%;
+  animation-name: animacionPatin4;
+  position: absolute;
+  right: 1130px;
+  transform: rotate(-0.8rad);
+  animation-duration: 1s;
+  margin: 1px; }
+
+@keyframes animacionPatin4 {
+  0% {
+    transform: translateX(-200px); }
+  100% {
+    transform: translateX(0px) rotate(-0.8rad); } }
+
+@media (min-width: 501px) and (max-width: 1023px) {
+  .patinetos {
+    display: none; } }
+
+@media (max-width: 500px) {
+  .patinetos {
+    display: none; } }
+
 /*Index*/
 .contenidoPrincipal {
   grid-area: cP;
@@ -83,7 +155,7 @@ footer {
   flex-direction: column; }
 
 aside {
-  grid-area: aside; }
+  margin-top: 1.5rem; }
 
 .sponsor {
   grid-area: sponsor;
