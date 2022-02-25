@@ -3008,13 +3008,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background-color: #ca7575;
+  border-color: #bb3b3b;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #0b5ed7;
-  border-color: #0a58ca;
+  background-color: #bb3b3b;
+  border-color: #bb3b3b;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -3247,8 +3247,8 @@ textarea.form-control-lg {
 }
 
 .btn-outline-primary {
-  color: #0d6efd;
-  border-color: #0d6efd;
+  color: #bb3b3b;
+  border-color: #ca7575;
 }
 .btn-outline-primary:hover {
   color: #fff;

@@ -1,21 +1,25 @@
 /*Index*/
 .contenidoPrincipal{
-    grid-area: cP;
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
 }
 .parrafo1d{
-    border-radius: 30px;
-    margin: 10px;
+    margin: 1rem;
 }
 
 .parrafo1{
     display: flex;
     flex-direction: row;
-    padding: 20px;
+    background-image: url(../multimedia/Back.png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: top;
     img{
         @extend .parrafo1d;
+        border-radius: 2rem
     }
     p{
         @extend .parrafo1d;
@@ -42,8 +46,11 @@
     }
 }
 .parrafo2{
-    background-color: #ca757562;
-    
+    margin: 1rem;
+    background-color: #ca7575ce;
+    a{
+        color: $colorP;
+    }
 }
 .container_1{
     display: flex;
@@ -55,7 +62,6 @@ aside{
 }
 
 .sponsor{
-    grid-area: sponsor;
     display: flex;
     flex-direction: row;
     padding: 20px;
@@ -73,16 +79,6 @@ aside{
         color: $colorP;
         font-size: 20px;
     }
-}
-.grilla{
-    display: grid;
-    grid-template-areas: 
-    "cabeza"
-    "cP"
-    "parrafo1"
-    "aside"
-    "sponsor"
-    "footer";
 }
 
 /*SMARTPHONE*/
