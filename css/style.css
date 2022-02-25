@@ -147,6 +147,16 @@ footer {
     font-style: oblique;
     padding: 30px; }
 
+.inicio {
+  margin: 1rem; }
+
+.iconosInicio {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .iconosInicio img {
+    margin: 1rem; }
+
 .parrafo2 {
   background-color: #ca757562; }
 
@@ -182,6 +192,8 @@ aside {
 /*SMARTPHONE*/
 @media (max-width: 500px) {
   /*Index*/
+  .icono-Principal {
+    width: 2000px; }
   nav ul {
     display: flex;
     flex-direction: column; }
@@ -213,6 +225,17 @@ aside {
   .sponsor img {
     width: 15%; }
   /*Index*/ }
+
+.animacionIconos:hover {
+  animation-name: logos;
+  animation-duration: 1s;
+  animation-play-state: paused; }
+
+@keyframes logos {
+  from {
+    transform: translateY(-0.5rem); }
+  to {
+    transform: translateX(-1rem); } }
 
 /*Nosotros*/
 main p {
