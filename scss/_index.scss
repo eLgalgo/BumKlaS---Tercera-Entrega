@@ -17,9 +17,11 @@
     overflow: hidden;
     background-attachment: fixed;
     background-position: top;
-    img{
-        @extend .parrafo1d;
-        border-radius: 2rem
+    .parrafo2{
+        img{
+            margin: 1rem;
+            
+        }
     }
     p{
         @extend .parrafo1d;
@@ -27,11 +29,17 @@
         align-content: center;
         justify-content: center;
         flex-wrap: wrap;
-        font-size: 30px;
+        font-size: 2rem;
         font-family: sans-serif;
         color: #9c0e0e;
         font-style: oblique;
         padding: 30px;
+    }
+    .kolito{
+        margin: 1rem;
+        img{
+            border-radius: 2rem
+        }
     }
 }
 .inicio{
@@ -47,7 +55,7 @@
 }
 .parrafo2{
     margin: 1rem;
-    background-color: #ca7575ce;
+    background-color: #f1ebeba1;
     a{
         color: $colorP;
     }

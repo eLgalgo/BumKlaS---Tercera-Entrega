@@ -127,7 +127,7 @@ footer {
   justify-content: center;
   flex-wrap: nowrap; }
 
-.parrafo1d, .parrafo1 img, .parrafo1 p {
+.parrafo1d, .parrafo1 p {
   margin: 1rem; }
 
 .parrafo1 {
@@ -139,18 +139,22 @@ footer {
   overflow: hidden;
   background-attachment: fixed;
   background-position: top; }
-  .parrafo1 img {
-    border-radius: 2rem; }
+  .parrafo1 .parrafo2 img {
+    margin: 1rem; }
   .parrafo1 p {
     display: flex;
     align-content: center;
     justify-content: center;
     flex-wrap: wrap;
-    font-size: 30px;
+    font-size: 2rem;
     font-family: sans-serif;
     color: #9c0e0e;
     font-style: oblique;
     padding: 30px; }
+  .parrafo1 .kolito {
+    margin: 1rem; }
+    .parrafo1 .kolito img {
+      border-radius: 2rem; }
 
 .inicio {
   margin: 1rem; }
@@ -164,7 +168,7 @@ footer {
 
 .parrafo2 {
   margin: 1rem;
-  background-color: #ca7575ce; }
+  background-color: #f1ebeba1; }
   .parrafo2 a {
     color: #bb3b3b; }
 
