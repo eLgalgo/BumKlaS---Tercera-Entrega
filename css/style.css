@@ -376,7 +376,9 @@ main p {
 @media (max-width: 500px) {
   .catalogos {
     display: flex;
-    justify-content: center; } }
+    justify-content: center; }
+  .marcas {
+    display: none; } }
 
 @keyframes animacionCatalogo {
   0% {
