@@ -3,11 +3,13 @@
     flex-direction: row;
 }
 .contacto form{
+    font-family: letra;
     display: flex;
     justify-content: center;
 }
 
 fieldset{
+    font-family: letra;
     margin: 20px;
     border-radius: 5px;
 }
@@ -17,6 +19,7 @@ legend{
 }
 
 label{
+    font-family: letra;
     color: $colorS2;
     font-size: 20px;
 }
@@ -26,14 +29,15 @@ input{
 }
 
 .contacto h2{
+    font-family: letra;
     display: flex;
     justify-content: center;
     font-size: 50px;
     background-color: white;
-    font-style: italic;
 }
 
 .sobre{
+    font-family: letra;
     height: 60px;
     border-radius: 5px;
 }
@@ -42,23 +46,8 @@ form{
     flex-direction: column;
     border: $colorP double;
 }
-main{
-    grid-area: contacto;
-}
-header{
-    grid-area: cabeza;
-}
 
-footer{
-    grid-area: footer;
-}
-.grilla3{
-    display: grid;
-    grid-template-areas: 
-    "cabeza"
-    "contacto"
-    "footer";
-}
+
 
 @media (min-width: 501px) and (max-width: 1023px){
     form{

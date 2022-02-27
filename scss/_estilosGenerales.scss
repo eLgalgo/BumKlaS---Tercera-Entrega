@@ -3,11 +3,11 @@ $colorP: #bb3b3b;
 $colorS: #ca7575;
 $colorS2: #374b73;
 
-
 *{
     margin: 0px;
     padding: 0px;
 }
+
 nav{
     display: flex;
     align-content: center;
@@ -37,6 +37,7 @@ nav{
 }
 
 header{
+    font-family: letra;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -44,6 +45,7 @@ header{
 }
 
 footer{
+    font-family: letra;
     grid-area: footer;
     display: grid;
     grid-template-areas: 
@@ -57,6 +59,7 @@ footer{
         flex-direction: row;
     }
     p{
+        text-align: center;
         grid-area: copy;
         color: $colorP;
         font-size: 20px;

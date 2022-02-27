@@ -6,9 +6,11 @@
 }
 .parrafo1d{
     margin: 1rem;
+    font-family: letra;
 }
 
 .parrafo1{
+    font-family: letra;
     display: flex;
     flex-direction: row;
     background-image: url(../multimedia/Back.png);
@@ -26,9 +28,8 @@
     p{
         @extend .parrafo1d;
         display: flex;
-        align-content: center;
-        justify-content: center;
-        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
         font-size: 2rem;
         font-family: sans-serif;
         color: #9c0e0e;
@@ -78,12 +79,11 @@ aside{
         width: 10%;
     }
     p{
+        font-family: letra;
         display: flex;
-        justify-content: center;
+        text-align: center;
         align-content: center;
-        flex-wrap: wrap;
         margin-left: 30px;
-        font-style: italic;
         color: $colorP;
         font-size: 20px;
     }

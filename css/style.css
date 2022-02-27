@@ -1,3 +1,7 @@
+@font-face {
+  font-family: letra;
+  src: url(../css/fuente.ttf); }
+
 * {
   margin: 0px;
   padding: 0px; }
@@ -26,12 +30,14 @@ nav {
   padding: 2%; }
 
 header {
+  font-family: letra;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background: linear-gradient(to bottom, rgba(38, 28, 129, 0.226), white); }
 
 footer {
+  font-family: letra;
   grid-area: footer;
   display: grid;
   grid-template-areas: "copy ayuda";
@@ -43,6 +49,7 @@ footer {
     display: flex;
     flex-direction: row; }
   footer p {
+    text-align: center;
     grid-area: copy;
     color: #bb3b3b;
     font-size: 20px;
@@ -128,9 +135,11 @@ footer {
   flex-wrap: nowrap; }
 
 .parrafo1d, .parrafo1 p {
-  margin: 1rem; }
+  margin: 1rem;
+  font-family: letra; }
 
 .parrafo1 {
+  font-family: letra;
   display: flex;
   flex-direction: row;
   background-image: url(../multimedia/Back.png);
@@ -143,9 +152,8 @@ footer {
     margin: 1rem; }
   .parrafo1 p {
     display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
     font-size: 2rem;
     font-family: sans-serif;
     color: #9c0e0e;
@@ -187,12 +195,11 @@ aside {
   .sponsor img {
     width: 10%; }
   .sponsor p {
+    font-family: letra;
     display: flex;
-    justify-content: center;
+    text-align: center;
     align-content: center;
-    flex-wrap: wrap;
     margin-left: 30px;
-    font-style: italic;
     color: #bb3b3b;
     font-size: 20px; }
 
@@ -246,6 +253,7 @@ aside {
 
 /*Nosotros*/
 main p {
+  font-family: letra;
   display: flex;
   align-content: center;
   flex-wrap: wrap; }
@@ -259,8 +267,8 @@ main p {
   display: flex;
   flex-direction: row; }
   .imagenNosotros1 p {
+    font-family: letra;
     font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ca7575;
     font-style: oblique; }
 
@@ -280,10 +288,10 @@ main p {
   .patrocinio img {
     margin: 20px; }
   .patrocinio p {
+    font-family: letra;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    font-family: sans-serif;
     color: #ca7575; }
 
 @media (min-width: 501px) and (max-width: 1023px) {
@@ -359,11 +367,11 @@ main p {
   /*Nosotros*/ }
 
 .titulos {
+  font-family: letra;
   display: flex;
   justify-content: center;
   color: #bb3b3b;
-  font-size: 40px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  font-size: 40px; }
 
 .marcas .w-marcas {
   margin: 5px;
@@ -401,18 +409,22 @@ main p {
   font-size: 20px;
   margin: 20px; }
   .preguntasFrecuentes section p {
+    font-family: letra;
     margin-bottom: 10px;
     margin-left: 20px; }
   .preguntasFrecuentes section h2 {
+    font-family: letra;
     font-size: 40px;
     margin: 10px; }
 
 .preguntasFrecuentes div h2 {
+  font-family: letra;
   color: #bb3b3b;
   font-size: 30px;
   margin: 10px; }
 
 .preguntasFrecuentes div h3 {
+  font-family: letra;
   color: #bb3b3b;
   font-size: 20px;
   margin-left: 100px;
@@ -423,10 +435,12 @@ main p {
   flex-direction: row; }
 
 .contacto form {
+  font-family: letra;
   display: flex;
   justify-content: center; }
 
 fieldset {
+  font-family: letra;
   margin: 20px;
   border-radius: 5px; }
 
@@ -435,6 +449,7 @@ legend {
   font-size: 20px; }
 
 label {
+  font-family: letra;
   color: #374b73;
   font-size: 20px; }
 
@@ -442,13 +457,14 @@ input {
   height: 30px; }
 
 .contacto h2 {
+  font-family: letra;
   display: flex;
   justify-content: center;
   font-size: 50px;
-  background-color: white;
-  font-style: italic; }
+  background-color: white; }
 
 .sobre {
+  font-family: letra;
   height: 60px;
   border-radius: 5px; }
 
@@ -456,19 +472,6 @@ form {
   display: flex;
   flex-direction: column;
   border: #bb3b3b double; }
-
-main {
-  grid-area: contacto; }
-
-header {
-  grid-area: cabeza; }
-
-footer {
-  grid-area: footer; }
-
-.grilla3 {
-  display: grid;
-  grid-template-areas: "cabeza" "contacto" "footer"; }
 
 @media (min-width: 501px) and (max-width: 1023px) {
   form {

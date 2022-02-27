@@ -1,5 +1,6 @@
 /*Nosotros*/
 main p{
+    font-family: letra;
     display: flex;
     align-content: center;
     flex-wrap: wrap;
@@ -13,8 +14,8 @@ main p{
     display: flex;
     flex-direction: row;
     p{
+        font-family: letra;
         font-size: 30px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: $colorS;
         font-style: oblique;
     }
@@ -36,10 +37,10 @@ main p{
         margin: 20px;
     }
     p{
+        font-family: letra;
         display: flex;
         flex-wrap: wrap;
         align-content: center;
-        font-family: sans-serif;
         color: $colorS;
     }
 }
