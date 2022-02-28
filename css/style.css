@@ -29,6 +29,9 @@ nav {
   flex-direction: row;
   padding: 2%; }
 
+.logo3 {
+  width: 25%; }
+
 header {
   font-family: letra;
   display: flex;
@@ -126,7 +129,9 @@ footer {
 
 @media (max-width: 500px) {
   .patinetos {
-    display: none; } }
+    display: none; }
+  .logo3 {
+    width: 50%; } }
 
 /*Index*/
 .contenidoPrincipal {
@@ -164,15 +169,23 @@ footer {
     .parrafo1 .kolito img {
       border-radius: 2rem; }
 
+.caja {
+  text-align: center; }
+
 .inicio {
   margin: 1rem; }
 
 .iconosInicio {
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: space-between;
+  overflow: hidden; }
   .iconosInicio img {
+    width: 80%;
     margin: 1rem; }
+  .iconosInicio h4 {
+    font-family: letra;
+    font-size: 1.2rem; }
 
 .parrafo2 {
   margin: 1rem;
@@ -206,6 +219,8 @@ aside {
 /*SMARTPHONE*/
 @media (max-width: 500px) {
   /*Index*/
+  .inicio {
+    display: none; }
   .icono-Principal {
     width: 2000px; }
   nav ul {
@@ -214,6 +229,10 @@ aside {
     nav ul div {
       display: flex;
       flex-direction: column; }
+  .iconosInicio {
+    flex-direction: column; }
+    .iconosInicio img {
+      width: 30%; }
   .parrafo1 {
     flex-direction: column; }
     .parrafo1 p {
@@ -241,15 +260,8 @@ aside {
   /*Index*/ }
 
 .animacionIconos:hover {
-  animation-name: logos;
-  animation-duration: 1s;
-  animation-play-state: paused; }
-
-@keyframes logos {
-  from {
-    transform: translateY(-0.5rem); }
-  to {
-    transform: translateX(-1rem); } }
+  transform: translateY(-1rem);
+  transition: transform .2s; }
 
 /*Nosotros*/
 main p {

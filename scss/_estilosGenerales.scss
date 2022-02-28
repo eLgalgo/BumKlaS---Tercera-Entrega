@@ -35,6 +35,10 @@ nav{
     flex-direction: row;
     padding: 2%;
 }
+.logo3{
+    width: 25%;
+}
+
 
 header{
     font-family: letra;
@@ -156,5 +160,8 @@ footer{
 @media (max-width: 500px){
     .patinetos{
         display: none;
+    }
+    .logo3{
+        width: 50%;
     }
 }
