@@ -9,8 +9,7 @@
 nav {
   display: flex;
   align-content: center;
-  flex-wrap: wrap;
-  grid-area: menu; }
+  flex-wrap: wrap; }
   nav li {
     font-size: 1.3rem;
     display: inline-block;
@@ -41,19 +40,14 @@ header {
 
 footer {
   font-family: letra;
-  grid-area: footer;
-  display: grid;
-  grid-template-areas: "copy ayuda";
   display: flex;
   justify-content: space-between;
   background: linear-gradient(to back, #ca757583, white); }
   footer section {
-    grid-area: ayuda;
     display: flex;
     flex-direction: row; }
   footer p {
     text-align: center;
-    grid-area: copy;
     color: #bb3b3b;
     font-size: 20px;
     margin: 10px; }

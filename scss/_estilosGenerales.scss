@@ -12,7 +12,6 @@ nav{
     display: flex;
     align-content: center;
     flex-wrap: wrap;
-    grid-area: menu;
     li{
         font-size: 1.3rem;
         display: inline-block;
@@ -50,21 +49,15 @@ header{
 
 footer{
     font-family: letra;
-    grid-area: footer;
-    display: grid;
-    grid-template-areas: 
-    "copy ayuda";
     display: flex;
     justify-content: space-between;
     background: linear-gradient(to back, #ca757583, white);
     section{
-        grid-area: ayuda;
         display: flex;
         flex-direction: row;
     }
     p{
         text-align: center;
-        grid-area: copy;
         color: $colorP;
         font-size: 20px;
         margin: 10px;
