@@ -10,6 +10,8 @@ nav {
   display: flex;
   align-content: center;
   flex-wrap: wrap; }
+  nav ul {
+    text-align: center; }
   nav li {
     font-size: 1.3rem;
     display: inline-block;
